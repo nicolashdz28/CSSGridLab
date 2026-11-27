@@ -1,0 +1,15 @@
+Paso 1
+Explica qué elementos serían afectados en los siguientes casos:
+
+nav a {...}
+Afecta solo a los enlaces a que están dentro de la etiqueta nav.
+
+nav , a {...}
+Afecta a la etiqueta nav y a todos los enlaces a de la página, estén o no dentro del nav.
+
+.l, .o, .v, .e, .r {...}
+Afecta a todos los elementos que tengan alguna de las clases l, o, v, e o r, en este caso a los cinco cuadros con las letras.
+
+¿Qué es lo que hace la propiedad filter? ¿Hay algunas propiedades que usarías en tus fotos?
+
+filter aplica efectos visuales a un elemento o una imagen. Aquí brightness(0) deja los iconos en negro e invert(1) los cambia a blanco, por eso al comentar esas líneas se ven con sus colores originales. En mis fotos usaría brightness, contrast, saturate, grayscale y blur.
